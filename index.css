@@ -670,7 +670,7 @@ html {
   cursor: pointer;
 }
 
-/* Success Screen Animation */
+
 .success-screen {
   position: fixed;
   top: 0;
@@ -719,7 +719,7 @@ html {
   animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
 }
 
-/* Animations */
+
 @keyframes stroke {
   100% {
     stroke-dashoffset: 0;
@@ -994,7 +994,7 @@ html, body {
     font-size: 16px;
   }
 }
-/* 🧠 Mobile fix – remove transform on mobile */
+
 @media (max-width: 768px) {
   .project-card-cal,
   .project-card-fb,
@@ -1062,13 +1062,13 @@ html, body {
   from { opacity: 0; transform: translate(-50%, -10px); }
   to { opacity: 1; transform: translate(-50%, 0); }
 }
-/* Fullscreen dark overlay behind popup */
+
 #network-popup {
   position: fixed;
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  background: rgba(0, 0, 0, 0.5); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1076,9 +1076,9 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Popup box styling */
+
 .popup-box {
-  background: #1f1f1f; /* dark background */
+  background: #1f1f1f; 
   padding: 25px 35px;
   border-radius: 15px;
   width: 320px;
@@ -1089,15 +1089,15 @@ html, body {
   animation: popupFadeIn 0.4s ease forwards;
 }
 
-/* Police light icon */
+
 .popup-icon {
   font-size: 52px;
   margin-bottom: 18px;
-  color: #ff3b3b; /* bright red */
+  color: #ff3b3b; 
   
 }
 
-/* Popup message text */
+
 .popup-box p {
   font-size: 17px;
   line-height: 1.4;
@@ -1105,7 +1105,7 @@ html, body {
   color: #ddd;
 }
 
-/* Close button styling */
+
 #popup-close-btn {
   background-color: #ff3b3b;
   border: none;
@@ -1126,7 +1126,7 @@ html, body {
 
 
 
-/* Fade-in and scale popup animation */
+
 @keyframes popupFadeIn {
   from { opacity: 0; transform: scale(0.85);}
   to { opacity: 1; transform: scale(1);}
@@ -1139,7 +1139,7 @@ html, body {
   text-shadow: none;      
   display: inline-block;  
 }
-/* Popup styling */
+
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -1184,11 +1184,11 @@ html, body {
 }
 @media (max-width: 768px) {
   .popup-box {
-    background-color: rgba(0, 0, 0, 0.85); /* dark semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.85); 
   }
 
   .popup-message {
-    color: white; /* white text for contrast */
+    color: white; 
   }
 
   .close-btn {
