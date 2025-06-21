@@ -98,7 +98,7 @@
   const form = document.getElementById("contactForm");
   const successScreen = document.getElementById("successScreen");
 
-  // Popup creation & show/hide logic
+  
   const popup = document.createElement('div');
   popup.id = 'network-popup';
   popup.innerHTML = `
@@ -111,7 +111,7 @@
   document.body.appendChild(popup);
   popup.style.display = 'none';
 
-  // Close button hides the popup
+  
   document.getElementById('popup-close-btn').onclick = () => {
     popup.style.display = 'none';
   };
