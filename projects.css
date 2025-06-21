@@ -109,7 +109,7 @@ html, body {
   font-size: 36px;
 }
 
-/* ✅ MOBILE FIX START */
+
 @media (max-width: 768px) {
   .head-mypro {
     transform: none !important;
@@ -169,4 +169,4 @@ html, body {
     padding-left: 5px;
   }
 }
-/* ✅ MOBILE FIX END */
+
