@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <link rel="icon" href="logo.png" type="image/jpeg">
+
+
+  
+  
+</head>
+<body>
+    <header class="my-head">
+  <div class="row">
+    <div class="col-md-6 col-6 p-3">
+      <h2 class="text">Crafting pixels into personality</h2>
+    </div>
+    <div class="col-md-6 col-4 p-2 container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Link
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn nav-social" aria-labelledby="socialDropdown" style="background-color: #1e1e1e;">
+                <li>
+                  <a class="dropdown-item social-link instagram-link" href="https://www.instagram.com/anandhh_uh__/" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item social-link linkedin-link" href="https://www.linkedin.com/in/anandhakrishnans9037/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/portfolio/skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+  <h1 class="head-mypro"><i class="fa-solid fa-diagram-project" style="color: #00D1FF; margin-right: 10px;"></i>My Projects</h1>
+    <div class="p-cards">
+  <div class="project-card-cal">
+    <div class="project-title">Mini Calculator</div>
+    <div class="project-description">A basic calculator built using HTML, CSS, and JavaScript with smooth design and animations.</div>
+    <a href="https://anandhuuh007.github.io/calculator/" class="project-link" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card-fb">
+  <div class="project-title">Facebook Frontend Clone</div>
+  <div class="project-description">A frontend-only replica of the Facebook landing/login page built with modern responsive layout.</div>
+  <a href="#" class="project-link-fb" onclick="openPopup()" style="color: #0077B5;">View Project</a>
+</div>
+
+
+<div id="popup" class="popup-overlay">
+  <div class="popup-box">
+    <p class="popup-message" >⚠️ Due to privacy and security reasons, this project cannot be viewed publicly.</p>
+    <button class="close-btn" onclick="closePopup()">Close</button>
+  </div>
+</div>
+
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+  function openPopup() {
+    document.getElementById('popup').style.display = 'flex';
+  }
+
+  function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
